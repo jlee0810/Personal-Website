@@ -1,11 +1,11 @@
 body {
   margin: 0;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .start-container {
   background-color: #293462;
   height: 100vh;
-  font-family: "Mochiy Pop One", sans-serif;
 }
 
 .start-container h1 {
@@ -41,7 +41,6 @@ body {
 }
 
 .menu-bar {
-  font-family: "Mochiy Pop One", sans-serif;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   background-color: black;
@@ -57,15 +56,62 @@ body {
 
 .profile {
   background-color: gold;
-  font-family: "Mochiy Pop One", sans-serif;
+
+}
+.profile .about-me {
+  margin: 0% 20% 0% 20%;
+  padding: 2% 0%;
+
 }
 
-.profile .about-me {
-  margin: 2% 20%;
+.profile h1 {
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
 }
+
+.profile .introduction {
+  margin: 15px;
+  padding: 10px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+}
+
 .profile .about-me img {
-  height: 200px;
-  text-align: center;
+  height: 300px;
+}
+
+.projects {
+  background-color: #277bc0;
+}
+.projects .list-projects {
+  margin: 0% 20% 0% 20%;
+  padding: 2% 0%;
+}
+
+.projects h1 {
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.projects .introduction {
+  margin: 15px;
+  padding: 10px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.projects .list-projects img {
+  height: 400px;
 }
 
 .bottom-container {

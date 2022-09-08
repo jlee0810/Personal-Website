@@ -13,14 +13,11 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/personal-website/css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <title>J. LEE</title>
   </head>
   <body>
@@ -54,27 +51,69 @@
     <section class="profile">
       <div class="container-fluid">
         <div class="about-me">
-          <h1 id="profile">About Me</h1>
+          <h1>About Me</h1>
           <div class="row">
             <div class="col-lg-6">
-              <p>
-                Hi! My name is Joonwon (Eric) Lee. I am currently a sophmore at
-                UCLA majoring in computational biology. However, I will soon be
-                changing major to computer science and pursue a minor in
-                bioinformatics (as I am interested both in computers and
-                biology). This summer I had my first tech internship at
-                RaonSecure, a cybersecurity solution company in South Korea.
-              </p>
-              <p>
-                My experience lies both behind the computer and inside a wet
-                lab. On the side, I am an electric skateboarder, a biker, a
-                swimmer, and a skier. Please feel free to explore my website and
-                reach out to me if you have any questions!
-              </p>
+              <div class="introduction">
+                <p>
+                  Hi! My name is Joonwon (Eric) Lee. I am currently a sophmore
+                  at UCLA majoring in computational biology. However, I will
+                  soon be changing major to computer science and pursue a minor
+                  in bioinformatics (as I am interested both in computers and
+                  biology). This summer I had my first tech internship at
+                  RaonSecure, a cybersecurity solution company in South Korea.
+                </p>
+                <p>
+                  My experience lies both behind the computer and inside a wet
+                  lab. On the side, I am an electric skateboarder, a biker, a
+                  swimmer, and a skier. Please feel free to explore my website
+                  and reach out to me if you have any questions!
+                </p>
+              </div>
             </div>
+            <div class="col-lg-6 text-center">
+              <img
+                src="image/profile.png"
+                class="img-fluid"
+                alt="profile-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="projects">
+      <div class="container-fluid">
+        <div class="list-projects">
+          <h1>Projects</h1>
+          <div class="row">
             <div class="col-lg-6">
-              <img src="image/profile.png" alt="profile" />
+              <div class="introduction">
+                <p>
+                  In TunnelMan, the player has to dig underground tunnels
+                  through an oil field looking for oil. After the player has
+                  gathered all available oil within a particular field, the
+                  level is completed and the player advances to a new, more
+                  difficult oil field.
+                </p>
+                <p>
+                  TunnelMan is a video game created in C++. It is a CS32
+                  courswork project at UCLA where students are required to
+                  implement the game using knowledge on object-oriented
+                  programming, data structure and algorithm (such as vectors,
+                  linkedlist, BFS). The end result: AI game characters that are
+                  "smart" enough to track the player down and randomized item
+                  spawning.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center">
+              <img
+                src="https://user-images.githubusercontent.com/96732758/188429840-faadedf7-b1f5-4d58-9d2c-ea757ddb4a03.png"
+                class="img-fluid"
+                alt="profile-image"
+              />
             </div>
           </div>
         </div>
