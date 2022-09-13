@@ -43,7 +43,7 @@ body {
 
 .menu-bar {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   background-color: black;
 }
 
@@ -92,14 +92,23 @@ body {
   padding: 2% 0%;
 }
 
-.experience h1,
-h3 {
+.experience h1{
   background-color: white;
   border-radius: 10px;
   display: inline-block;
   margin: 15px;
   margin-bottom: 0px;
   padding: 10px;
+}
+
+.experience h3 {
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 1.5em;
 }
 
 .experience .introduction {
@@ -115,6 +124,7 @@ h3 {
   width: 350px;
   object-fit: cover;
   border-radius: 10px;
+  
 }
 
 .projects {
@@ -125,13 +135,23 @@ h3 {
   padding: 2% 0%;
 }
 
-.projects h1,h3 {
+.projects h1 {
   background-color: white;
   border-radius: 10px;
   display: inline-block;
   margin: 15px;
   margin-bottom: 0px;
   padding: 10px;
+}
+
+.projects h3 {
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 1.5em;
 }
 
 .projects .introduction {
@@ -147,7 +167,46 @@ h3 {
   width: 350px;
   object-fit: coverd;
   border-radius: 10px;
+  
 }
+
+
+.education {
+  background-color: skyblue;
+}
+.education .list-education {
+  margin: 0% 20% 0% 20%;
+  padding: 2% 0%;
+}
+
+.education h1{
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.education h3 {
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.education .introduction {
+  margin: 15px;
+  padding: 10px;
+  display: block;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
 
 .bottom-container {
   margin: 2%;
