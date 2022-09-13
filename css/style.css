@@ -4,6 +4,7 @@ body {
   background-color: #f675a8;
 }
 
+
 .start-container {
   background-color: #293462;
   height: 100vh;
@@ -41,22 +42,10 @@ body {
   cursor: pointer;
 }
 
-.menu-bar {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  background-color: black;
-}
-
-.menu-bar a {
-  text-align: center;
-  color: white;
-  padding: 10px;
-  text-decoration: none;
-  font-size: 20px;
-}
 
 .profile {
   background-color: #277bc0;
+  padding-top: 50px;
 }
 .profile .about-me {
   margin: 0% 20% 0% 20%;
@@ -86,13 +75,14 @@ body {
 
 .experience {
   background-color: #42855b;
+  padding-top: 50px;
 }
 .experience .list-experiences {
   margin: 0% 20% 0% 20%;
   padding: 2% 0%;
 }
 
-.experience h1{
+.experience h1 {
   background-color: white;
   border-radius: 10px;
   display: inline-block;
@@ -111,6 +101,10 @@ body {
   font-size: 1.5em;
 }
 
+.experience span {
+  font-size: 1em;
+}
+
 .experience .introduction {
   margin: 15px;
   padding: 10px;
@@ -124,11 +118,11 @@ body {
   width: 350px;
   object-fit: cover;
   border-radius: 10px;
-  
 }
 
 .projects {
   background-color: gold;
+  padding-top: 50px;
 }
 .projects .list-projects {
   margin: 0% 20% 0% 20%;
@@ -154,6 +148,10 @@ body {
   font-size: 1.5em;
 }
 
+.projects span {
+  font-size: 1em;
+}
+
 .projects .introduction {
   margin: 15px;
   padding: 10px;
@@ -167,19 +165,18 @@ body {
   width: 350px;
   object-fit: coverd;
   border-radius: 10px;
-  
 }
-
 
 .education {
   background-color: skyblue;
+  padding-top: 50px;
 }
 .education .list-education {
   margin: 0% 20% 0% 20%;
   padding: 2% 0%;
 }
 
-.education h1{
+.education h1 {
   background-color: white;
   border-radius: 10px;
   display: inline-block;
@@ -204,9 +201,7 @@ body {
   display: block;
   background-color: white;
   border-radius: 10px;
-
 }
-
 
 .bottom-container {
   margin: 2%;
