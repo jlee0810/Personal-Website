@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <script src="https://kit.fontawesome.com/88b79ed3a5.js" crossorigin="anonymous"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,11 +14,11 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/personal-website/css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet" />
     <title>J. LEE</title>
   </head>
   <body>
@@ -41,71 +42,89 @@
     </script>
 
     <div class="menu-bar">
-      <a href="index.html">Home</a>
       <a href="#profile">About</a>
+      <a href="#experiences">Experiences</a>
       <a href="#projects">Projects</a>
       <a href="mailto:joonwontech@gmail.com">Contact</a>
     </div>
 
     <!-- Content -->
+
+    <!-- About me -->
     <section class="profile">
       <div class="container-fluid">
-        <div class="about-me">
-          <h1>About Me</h1>
+        <div class="about-me" id="profile">
+          <h1><b>About Me</b></h1>
           <div class="row">
             <div class="col-lg-6">
               <div class="introduction">
                 <p>
-                  Hi! My name is Joonwon (Eric) Lee. I am currently a sophmore
-                  at UCLA majoring in computational biology. However, I will
-                  soon be changing major to computer science and pursue a minor
-                  in bioinformatics (as I am interested both in computers and
-                  biology). This summer I had my first tech internship at
-                  RaonSecure, a cybersecurity solution company in South Korea.
+                  Hi! My name is Joonwon (Eric) Lee. I am currently a sophmore at UCLA majoring in computational biology. However, I will soon be
+                  changing major to computer science and pursue a minor in bioinformatics (as I am interested both in computers and biology). This
+                  summer I had my first tech internship at RaonSecure, a cybersecurity solutions company in South Korea.
                 </p>
                 <p>
-                  My experience lies both behind the computer and inside a wet
-                  lab. On the side, I am an electric skateboarder, a biker, a
-                  swimmer, and a skier. Please feel free to explore my website
-                  and reach out to me if you have any questions!
+                  My experience lies both behind the computer and inside a wet lab. On the side, I am an electric skateboarder, a biker, a swimmer,
+                  and a skier. Please feel free to explore my website and reach out to me if you have any questions!
                 </p>
               </div>
             </div>
             <div class="col-lg-6 text-center">
-              <img
-                src="image/profile.png"
-                class="img-fluid"
-                alt="profile-image"
-              />
+              <img src="image/profile.png" class="img-fluid" alt="profile-image" />
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="projects">
+    <!-- Experience -->
+    <section class="experience">
       <div class="container-fluid">
-        <div class="list-projects">
-          <h1>Projects</h1>
+        <div class="list-experiences" id="experiences">
+          <h1><b>Experience</b></h1>
           <div class="row">
             <div class="col-lg-6">
+              <h3>RaonSecure</h3>
               <div class="introduction">
                 <p>
-                  In TunnelMan, the player has to dig underground tunnels
-                  through an oil field looking for oil. After the player has
-                  gathered all available oil within a particular field, the
-                  level is completed and the player advances to a new, more
-                  difficult oil field.
+                  RaonSecure is a cybersecurity solutions company located in South Korea. I worked as an associate product manager intern for the
+                  summer of 2022.
                 </p>
                 <p>
-                  TunnelMan is a video game created in C++. It is a CS32
-                  courswork project at UCLA where students are required to
-                  implement the game using knowledge on object-oriented
-                  programming, data structure and algorithm (such as vectors,
-                  linkedlist, BFS). The end result: AI game characters that are
-                  "smart" enough to track the player down and randomized item
-                  spawning.
+                  During my internship, I was responsible for helping the PM of the OmniOne NFT marketplace to help develop the product roadmap and
+                  draft the project propsal. Throughout the internship, I analyzed 20+ NFT marketplaces regarding their business model, blockchain,
+                  and wallet technology, learned about blockchain, metaverse, and NFTs, and studied policies regarding STOs. I had the unique
+                  experience, as an intern, to interact and present in front of team leads/senior engineers and the CEO of the company.
                 </p>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center">
+              <img src="https://raonsecure.com/common/ko/img/icon/SNS-img.jpg" class="img-fluid" alt="profile-image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects">
+      <div class="container-fluid">
+        <div class="list-projects" id="projects">
+          <h1><b>Projects</b></h1>
+          <div class="row">
+            <div class="col-lg-6">
+              <h3>TunnelMan</h3>
+              <div class="introduction">
+                <p>
+                  In TunnelMan, the player has to dig underground tunnels through an oil field looking for oil. After the player has gathered all
+                  available oil within a particular field, the level is completed and the player advances to a new, more difficult oil field.
+                </p>
+                <p>
+                  TunnelMan is a video game created in <b>C++</b>. It is a CS32 courswork project at UCLA where students are required to implement the
+                  game using knowledge on <b>object-oriented programming</b>, <b>data structure and algorithm</b> (such as vectors, linkedlist, BFS).
+                  The end result: AI game characters that are "smart" enough to track the player down and randomized item spawning.
+                </p>
+                <span class="badge bg-dark">C++</span>
               </div>
             </div>
             <div class="col-lg-6 text-center">
@@ -121,12 +140,15 @@
     </section>
 
     <section class="bottom-container">
-      <a
-        class="footer-link"
-        href="https://www.linkedin.com/in/joonwon-lee-95b575133/"
-        >LinkedIn</a
-      >
-      <a class="footer-link" href="https://github.com/jlee0810">Github</a>
+      <a class="btn btn-dark btn-lg" href="https://github.com/jlee0810" role="button">
+        <i class="fa-brands fa-github"></i>
+        Github
+      </a>
+
+      <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/joonwon-lee-95b575133/" role="button">
+        <i class="fa-brands fa-linkedin"></i>
+        LinkedIn
+      </a>
       <p>© Joonwon (Eric) Lee.</p>
     </section>
   </body>

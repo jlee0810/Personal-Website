@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
+  background-color: #f675a8;
 }
 
 .start-container {
@@ -55,13 +56,11 @@ body {
 }
 
 .profile {
-  background-color: gold;
-
+  background-color: #277bc0;
 }
 .profile .about-me {
   margin: 0% 20% 0% 20%;
   padding: 2% 0%;
-
 }
 
 .profile h1 {
@@ -85,15 +84,48 @@ body {
   height: 300px;
 }
 
+.experience {
+  background-color: #42855b;
+}
+.experience .list-experiences {
+  margin: 0% 20% 0% 20%;
+  padding: 2% 0%;
+}
+
+.experience h1,
+h3 {
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.experience .introduction {
+  margin: 15px;
+  padding: 10px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.experience .list-experiences img {
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 .projects {
-  background-color: #277bc0;
+  background-color: gold;
 }
 .projects .list-projects {
   margin: 0% 20% 0% 20%;
   padding: 2% 0%;
 }
 
-.projects h1 {
+.projects h1,h3 {
   background-color: white;
   border-radius: 10px;
   display: inline-block;
@@ -111,10 +143,14 @@ body {
 }
 
 .projects .list-projects img {
-  height: 400px;
+  height: 350px;
+  width: 350px;
+  object-fit: coverd;
+  border-radius: 10px;
 }
 
 .bottom-container {
+  margin: 2%;
   text-align: center;
 }
 
