@@ -73,6 +73,11 @@ body {
   height: 300px;
 }
 
+.profile span {
+  font-size: 1em;
+}
+
+
 .experience {
   background-color: #42855b;
   padding-top: 50px;
@@ -114,8 +119,8 @@ body {
 }
 
 .experience .list-experiences img {
-  height: 350px;
-  width: 350px;
+  height: 300px;
+  width: 250px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -169,7 +174,7 @@ body {
 
 .education {
   background-color: skyblue;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 .education .list-education {
   margin: 0% 20% 0% 20%;
