@@ -119,8 +119,8 @@ body {
 }
 
 .experience .list-experiences img {
-  height: 300px;
-  width: 250px;
+  height: 200px;
+  width: 300px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -166,8 +166,8 @@ body {
 }
 
 .projects .list-projects img {
-  height: 350px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
   object-fit: coverd;
   border-radius: 10px;
 }
