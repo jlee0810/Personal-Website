@@ -71,6 +71,9 @@ body {
 
 .profile .about-me img {
   height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .profile span {
@@ -169,6 +172,19 @@ body {
   height: 300px;
   width: 300px;
   object-fit: coverd;
+  border-radius: 10px;
+}
+
+img[src="/image/hang.png"] {
+  /* object-fit: cover; */
+  height: 375px !important;
+  width: 250px !important;
+  border-radius: 10px;
+}
+
+img[src="/image/jump-showdown.png"] {
+  height: 230px !important;
+  width: 350px !important;
   border-radius: 10px;
 }
 
