@@ -71,3 +71,40 @@ body {
 .footer a:hover {
   color: #f675a8;
 }
+
+.badge {
+  white-space: normal;
+  word-wrap: break-word;
+  display: inline-block;
+  max-width: 100%;
+  margin-top: 5px;
+}
+
+/* Additional CSS for responsive images and columns */
+@media (max-width: 576px) {
+  .experience .list-experiences {
+    margin: 0% 5%;
+  }
+
+  .experience h1,
+  .experience h3,
+  .experience .introduction {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .experience .list-experiences img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
