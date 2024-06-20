@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: "Titillium Web", sans-serif;
+  background-color: #f675a8;
+}
+
+.experience {
+  background-color: #9fd4a3;
+}
+.experience .list-experiences {
+  margin: 0% 10%;
+  padding: 2% 0%;
+}
+
+.experience h1 {
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.experience h3 {
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.experience span {
+  font-size: 1em;
+}
+
+.experience .introduction {
+  margin: 15px;
+  padding: 10px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.experience .list-experiences img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-height: 400px;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-toggler-icon {
+  font-size: 25px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f675a8;
+}

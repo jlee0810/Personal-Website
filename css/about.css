@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: "Titillium Web", sans-serif;
+  background-color: #f675a8;
+}
+
+.profile {
+  background-color: #89cff0;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.profile .about-me {
+  margin: 0% 10%;
+  padding: 2% 0%;
+}
+
+.profile h1 {
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.profile .introduction {
+  margin: 15px;
+  padding: 10px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.profile .about-me img {
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 10px solid white;
+}
+
+.profile span {
+  font-size: 1em;
+}
+
+.profile a {
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+@media screen and (min-width: 1700px) {
+  .profile .about-me {
+    font-size: 20px;
+  }
+
+  .profile .about-me img {
+    max-width: 400px;
+  }
+}
+
+#socials {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#socials a {
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+#socials a:hover {
+  color: grey;
+}
+
+#socials h1 {
+  background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-toggler-icon {
+  font-size: 25px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f675a8;
+}

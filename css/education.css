@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "Titillium Web", sans-serif;
+  background-color: #f675a8;
+}
+
+.education {
+  background-color: #9fd4a3;
+  padding-top: 50px;
+}
+.education .list-education {
+  margin: 0% 20% 0% 20%;
+  padding: 2% 0%;
+}
+
+.education h1 {
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.education h3 {
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.education .introduction {
+  margin: 15px;
+  padding: 10px;
+  display: block;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-toggler-icon {
+  font-size: 25px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f675a8;
+}

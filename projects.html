@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script
+      src="https://kit.fontawesome.com/88b79ed3a5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="icon" href="logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/project.css" />
+    <title>J. LEE</title>
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="logo.png"
+          width="30"
+          height="30"
+          alt=""
+          style="margin-left: 20px"
+        />
+      </a>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"> Joonwon Lee </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item me-3">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="experience.html"
+                >Work Experience</a
+              >
+            </li>
+            <li class="nav-item me-3">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="research.html"
+                >Research</a
+              >
+            </li>
+            <li class="nav-item me-3">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="projects.html"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item me-3">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="education.html"
+                >Education</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item me-3">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="https://drive.google.com/file/d/1kMfExN-xK0JlHFwrc4RB61Rtr0m4kcRJ/view?usp=sharing"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="mailto:joonwontech@gmail.com"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="project" id="projects">
+      <div class="container-fluid">
+        <div class="list-projects">
+          <h1><b>Projects</b></h1>
+          <br />
+
+          <h3>Pump.Fun Bundler</h3>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="introduction">
+                <p>
+                  I developed a bundler for the Solana blockchain that minted
+                  and purchased tokens for Pump.Fun coins within the same block
+                  but through separate transactions using Jito Labs Bundler.
+                  Additionally, I reverse-engineered Pump.Fun’s on-chain program
+                  to extract its Interface Definition Language (IDL),
+                  parameters, and inputs, and automated the upload of token
+                  images and metadata to IPFS. The bundler created larger
+                  arbitrage opportunities, resulting in average profits that
+                  were twice as high compared to token launches without the
+                  bundler.
+                </p>
+
+                <span class="badge bg-dark">Solana</span>
+                <span class="badge bg-dark">Jito Labs</span>
+                <span class="badge bg-dark">IPFS</span>
+                <span class="badge bg-dark">On Chain Program (IDL)</span>
+              </div>
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-wrap align-items-center justify-content-center"
+            >
+              <img
+                src="./image/bundler.png"
+                alt="profile-image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <h3>OpenGl Clone</h3>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="introduction">
+                <p>
+                  I developed a self-contained C++ implementation of an OpenGL
+                  clone without using external libraries or dependencies. This
+                  implementation incorporated various graphics techniques,
+                  including triangle rasterization, backface culling/hidden
+                  surface removal, perspective projection, camera movement,
+                  Phong shading, shadow mapping, and ambient occlusion.
+                  Additionally, I enabled the input of OBJ files to generate TGA
+                  files, facilitating an intuitive process for importing and
+                  exporting 3D models.
+                </p>
+
+                <span class="badge bg-dark">C++</span>
+                <span class="badge bg-dark">Computer Graphics</span>
+                <span class="badge bg-dark"
+                  ><a
+                    href="https://github.com/jlee0810/opengl-clone?tab=readme-ov-file"
+                    style="color: white"
+                    >Repo</a
+                  ></span
+                >
+              </div>
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-wrap align-items-center justify-content-center"
+            >
+              <img
+                src="./image/open-gl-clone.png"
+                alt="profile-image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <h3>Jump Showdown</h3>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="introduction">
+                <p>
+                  The game is developed using JavaScript and Tiny Graphics
+                  library. Computer graphics techniques ranging from matrix
+                  transformation to ray tracing and shading were used to
+                  implement this project.
+                </p>
+                <p>
+                  By implementing collision detection, lighting effects,
+                  textures, and visual detail, I strived to create an engaging
+                  and visually immersive game. The proposed gameplay mechanics
+                  and technical features provides an exciting challenge for
+                  players to survive as long as possible and achieve high
+                  scores.
+                </p>
+
+                <span class="badge bg-dark"> JS</span>
+                <span class="badge bg-dark">Tiny Graphics</span>
+                <span class="badge bg-dark">Computer Graphics</span>
+                <span class="badge bg-dark"
+                  ><a
+                    href="https://github.com/jlee0810/jump-showdown"
+                    style="color: white"
+                    >Repo</a
+                  ></span
+                >
+              </div>
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-wrap align-items-center justify-content-center"
+            >
+              <img
+                src="https://github.com/jlee0810/personal-website/blob/main/image/jump-showdown.png?raw=true"
+                alt="profile-image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <h3>UCLA Bamboo Forest</h3>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="introduction">
+                <p>
+                  The UCLA Bamboo Forest was inspired by the Korean tale, "The
+                  King Has Donkey Ears!" which tells the story of a royal crown
+                  maker who, upon discovering the king's unusually large ears,
+                  revealed the secret in a Bamboo Forest. Drawing inspiration
+                  from this tale, the UCLA Bamboo Forest aimed to provide a
+                  platform where UCLA students could share their thoughts and
+                  secrets with each other. Although there was already a UCLA
+                  Reddit page, we believed that a platform entirely managed by
+                  UCLA students would foster a stronger sense of community and
+                  offer a more personalized experience for users. Our goal was
+                  to establish the UCLA Bamboo Forest as a widely-used web
+                  application, akin to popular platforms like Bruinwalk and the
+                  Daily Bruin. We were dedicated to ensuring that the site was
+                  well-moderated and regulated to maintain a positive and
+                  inclusive environment for all students. The platform was
+                  developed using React JS, Firebase, Bootstrap, and CSS.
+                </p>
+
+                <span class="badge bg-dark">React JS</span>
+                <span class="badge bg-dark">Firebase</span>
+                <span class="badge bg-dark"
+                  ><a
+                    href="https://github.com/Didier-Lucu/Bamboo-Forest"
+                    style="color: white"
+                    >Repo</a
+                  ></span
+                >
+              </div>
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-wrap align-items-center justify-content-center"
+            >
+              <img
+                src="./image/bamboo-forest.png"
+                alt="profile-image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <h3>Hang!</h3>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="introduction">
+                <p>
+                  Hang! is a location-based service that recommends posted
+                  hangout itineraries providing an optimal sequence of places to
+                  visit. The project achieved seamless functionality by
+                  leveraging state container technology like Redux, coupled with
+                  the integration of powerful APIs like Google Autocomplete,
+                  Directions, and Maps API. During the LA Hackathon, I worked on
+                  the login, main page, interactive map (waypoints / search
+                  bar), and create post page.
+                </p>
+
+                <p>
+                  Overall, this project aims to provide users with a convenient
+                  and efficient way to plan their hangouts by recommending the
+                  best sequence of places to visit based on their location.
+                </p>
+
+                <span class="badge bg-dark">React Native</span>
+                <span class="badge bg-dark">Redux</span>
+                <span class="badge bg-dark">Google API</span>
+                <span class="badge bg-dark"
+                  ><a
+                    href="https://devpost.com/software/hang-h8mecf"
+                    style="color: white"
+                    >Dev Post</a
+                  ></span
+                >
+              </div>
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-wrap align-items-center justify-content-center"
+            >
+              <img
+                src="https://github.com/jlee0810/personal-website/blob/main/image/hang.png?raw=true"
+                alt="profile-image"
+              />
+            </div>
+          </div>
+
+          <h3>TunnelMan</h3>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="introduction">
+                <p>
+                  In TunnelMan, the player has to dig underground tunnels
+                  through an oil field looking for oil. There are items that can
+                  be dug up and a AI that chases you down to hurt you! After the
+                  player has gathered all available oil within a particular
+                  field, the level is completed and the player advances to a
+                  new, more difficult oil field.
+                </p>
+                <p>
+                  TunnelMan is a video game created in C++. It is a toy project
+                  where I implemented my knowledge on object-oriented
+                  programming, data structure and algorithm (such as vectors,
+                  linkedlist, BFS). The end result: AI game characters that are
+                  "smart" enough to track the player down (to attack) and
+                  randomized item spawning.
+                </p>
+                <span class="badge bg-dark">C++</span>
+                <span class="badge bg-dark"
+                  ><a
+                    href="https://github.com/jlee0810/TunnelMan-Video-Game"
+                    style="color: white"
+                    >Project Repo</a
+                  ></span
+                >
+              </div>
+            </div>
+            <div
+              class="col-lg-6 d-flex flex-wrap align-items-center justify-content-center"
+            >
+              <img
+                src="https://user-images.githubusercontent.com/96732758/188429840-faadedf7-b1f5-4d58-9d2c-ea757ddb4a03.png"
+                alt="profile-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer bg-dark text-white text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <h5>Contact</h5>
+            <p>
+              Email:
+              <a href="mailto:joonwontech@gmail.com" class="text-white"
+                >joonwontech@gmail.com</a
+              ><br />
+              Phone: +1 (424) 465-0821
+            </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Follow Me</h5>
+            <a
+              href="https://www.linkedin.com/in/joonwonericlee/"
+              class="text-white me-2"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/jlee0810" class="text-white me-2">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:joonwontech@gmail.com" class="text-white">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Location</h5>
+            <p>
+              920 Weyburn PL<br />
+              Los Angeles, CA, 90024
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="mb-0">&copy; 2024 Joonwon Lee. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

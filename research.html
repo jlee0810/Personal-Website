@@ -25,7 +25,7 @@
       href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/experience.css" />
     <title>J. LEE</title>
     <meta name="viewport" content="width=device-width" />
   </head>
@@ -111,92 +111,119 @@
         </div>
       </div>
     </nav>
-
-    <section class="profile" id="profile">
+    <section class="experience" id="experiences">
       <div class="container-fluid">
-        <div class="about-me">
-          <h1><b>Hey there, </b></h1>
+        <div class="list-experiences">
+          <h1><b>Research</b></h1>
           <br />
-          <h1>>🏠~ I am <span class="auto-type"></span></h1>
-          <a href="#profile">
-            <div class="scroll-down"></div>
-          </a>
-
-          <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-          <script>
-            var typed = new Typed(".auto-type", {
-              strings: [
-                "Joonwon (Eric)",
-                "a UCLA Undergrad",
-                "a software engineer",
-                "a cryptography (multi party computation) researcher",
-                "a blockchain enthusiast",
-              ],
-              typeSpeed: 30,
-              backSpeed: 50,
-              loop: true,
-            });
-          </script>
+          <h3>
+            Prof. Rafail Ostrovsky & Prof. Sam Kumar (Multi-party Computation)
+          </h3>
           <div class="row">
-            <div class="col-lg-8 col-md-12">
+            <div class="col-lg-6">
               <div class="introduction">
+                <b
+                  ><u><p>Nov 2023 - Current</p></u></b
+                >
                 <p>
-                  Hello, my name is Joonwon (Eric) Lee. Welcome to my website,
-                  where I showcase my work experiences, projects, and education.
+                  Under the guidance of Professor Rafail Ostrovsky and Professor
+                  Sam Kumar, I am deeply engaged in the development of a
+                  pioneering data collaboration service leveraging multi-party
+                  computation (MPC) technologies, including MP-SPDZ and EMP
+                  Toolkit. This groundbreaking initiative is aimed at enabling
+                  the secure exchange and processing of data within an MPC
+                  framework on AWS EC2 virtual machines.
                 </p>
                 <p>
-                  I have a broad interest in computers, with a particular focus
-                  on systems software and blockchain. I am currently pursuing a
-                  major in Computer Science at UCLA, with a minor in Statistics
-                  & Data Science. My coursework includes cryptography,
-                  blockchain, operating systems, and more (listed in education
-                  tab).
+                  At the heart of our project is the design of an automated
+                  system that streamlines the setup of AWS EC2 instances and
+                  ensures the secure transfer of input data via MPC. A key
+                  feature of our system is the establishment of a TLS connection
+                  with AWS, which facilitates the secure execution of
+                  computations on the cloud platform. Our approach involves a
+                  detailed analysis of web requests to AWS, translating them
+                  into the MPC framework's domain-specific language (DSL), thus
+                  bolstering data privacy through advanced encryption and secure
+                  secret sharing techniques inherent to MPC.
                 </p>
                 <p>
-                  This summer, I am working as a software engineer intern at
-                  Samsung Electronics under Samsung Research, contributing to
-                  the Tizen OS platform team. Previously, I served as a
-                  Frontend/Mobile developer at LG.
+                  Looking ahead, we plan to enrich the system with state
+                  management features, which will enable the service to monitor
+                  and restore its state, thereby enhancing its resilience and
+                  introducing reactive capabilities that will significantly
+                  improve the service's efficiency and user experience.
                 </p>
                 <p>
-                  In my spare time, I enjoy creating meme coins, developing
-                  Solana blockchain tools, skateboarding, and weightlifting.
+                  Our vision is to transform MPC into a versatile platform that
+                  functions like an API, enabling secure data collaboration in a
+                  manner akin to Snowflake's data cleanroom, thereby redefining
+                  the possibilities of secure data interaction in the cloud.
                 </p>
 
-                <p>
-                  Feel free to connect with me on LinkedIn or via email. You can
-                  also check out my projects on GitHub. Some of the projects
-                  listed on my resume might be private (due to financial and
-                  professor's guidance), so please reach out to me if you would
-                  like to see them.
-                </p>
+                <span class="badge bg-dark"
+                  ><a
+                    href="https://web.cs.ucla.edu/~rafail/"
+                    style="color: white"
+                    >Prof. Ostrovsky Website</a
+                  ></span
+                >
+                <span class="badge bg-dark"
+                  ><a href="https://www.samkumar.org/" style="color: white"
+                    >Prof. Kumar Website</a
+                  ></span
+                >
               </div>
             </div>
-            <div
-              class="col-lg-4 col-md-12 align-items-center justify-content-center d-flex"
-            >
-              <img
-                src="image/profile.png"
-                alt="profile-image"
-                class="img-fluid"
-              />
+            <div class="col-lg-6 d-flex flex-wrap align-items-center">
+              <div class="text-center">
+                <img src="image/mpc.ppm" alt="lg" class="img-fluid" />
+              </div>
             </div>
           </div>
-        </div>
-
-        <div id="socials">
-          <h1>Get in touch</h1>
-          <br />
-          <a href="https://www.linkedin.com/in/joonwonericlee/" class="me-2">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://github.com/jlee0810" class="me-2">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="mailto:joonwontech@gmail.com" class="me-2">
-            <i class="fas fa-envelope"></i>
-          </a>
+          <h3>Pimentel Lab UCLA Health</h3>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="introduction">
+                <b
+                  ><u><p>Sep 2022 - Current</p></u></b
+                >
+                <p>
+                  At the Pimentel lab, I was deeply engaged in advancing our
+                  understanding of gene regulation and the impact of diseases on
+                  gene networks. My focus was on developing and optimizing an
+                  automated pipeline that significantly enhanced our data
+                  processing capabilities. By automating the retrieval and
+                  processing of 4,865 SRA files, employing Kallisto for precise
+                  read alignment, and utilizing Snakemake along with CLI
+                  scripting for data normalization, I managed to save the lab an
+                  invaluable amount of time—equivalent to over two weeks of
+                  manual labor.
+                </p>
+                <p>
+                  Further, I applied my knowledge in Bayesian statistics and
+                  structural learning, utilizing Python's robust libraries like
+                  Numpy, Scipy, Matplotlib, and Seaborn, to process and analyze
+                  genome wide perturb seq data. Through meticulous data
+                  analysis, I identified anomalies within the dataset—instances
+                  where the data failed to meet the expected threshold z-scores.
+                  This critical insight led to the saving of more than 100 lab
+                  hours, optimizing our research efficiency and contributing to
+                  more accurate and reliable outcomes in our studies of gene
+                  regulation networks.
+                </p>
+                <span class="badge bg-dark"
+                  ><a href="https://pimentellab.com/" style="color: white"
+                    >Lab Website</a
+                  ></span
+                >
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex flex-wrap align-items-center">
+              <div class="text-center">
+                <img src="image/pimentel.png" alt="lg" class="img-fluid" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
